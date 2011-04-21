@@ -15,6 +15,6 @@ DATABASES = {
         # Set to empty string for localhost. Not used with sqlite3.
         "HOST": "",
          # Set to empty string for default. Not used with sqlite3.
-        "PORT": "",
+        "PORT": "5432",
     }
 }
