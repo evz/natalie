@@ -2,7 +2,7 @@
 
 {% load mezzanine_tags %}
 
-{% block main %}{{ block.super }}
+{% block content %}{{ block.super }}
 
 {% editable page.contentpage.content %}
 {{ page.contentpage.content|safe }}
