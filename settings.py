@@ -211,3 +211,5 @@ except ImportError:
 # applicable.
 from mezzanine.utils.conf import set_dynamic_settings
 set_dynamic_settings(globals())
+
+SITE_TITLE = 'Natalie Evans, Doula and Childbirth Educator'
