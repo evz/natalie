@@ -66,6 +66,10 @@ a:hover {
     width: 680px;
 }
 
+.wide {
+    width: 940px !important;
+}
+
 #sidebar {
     padding: 10px 10px 20px;
     width: 200px;
@@ -91,4 +95,33 @@ a:hover {
     margin-top:20px;
     width:100%;
     text-align:center;
+}
+
+#right {
+    overflow: hidden;
+}
+
+#right img {
+    margin: 10px 0;
+}
+
+#right p, .form label {
+    font-size:16px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.form li {
+    width: 500px;
+    margin: 10px 0;
+}
+
+.form textarea {
+    width: 500px;
+    height: 50px;
+    margin-top: 7px;
+}
+
+.form label {
+    margin-bottom: 7px;
 }

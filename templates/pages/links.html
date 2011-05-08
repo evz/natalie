@@ -1,0 +1,15 @@
+{% extends "pages/contentpage.html" %}
+
+{% load mezzanine_tags %}
+
+{% block main %}{{ block.super }}
+<div id="content" class="wide grid_12">
+{% editable page.contentpage.content %}
+{{ page.contentpage.content|safe }}
+{% endeditable %}
+</div>
+
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block sidebar %}{% endblock %}
