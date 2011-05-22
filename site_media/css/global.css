@@ -18,12 +18,12 @@ a:hover {
     position:absolute;
     top: 20px;
     margin-left:100px;
+    font-style:italic;
 }
 #header h1 {
     color: #fff;
     font-size:36px;
     font-weight: 900;
-    font-style:italic;
     text-align:center;
     -moz-text-shadow: 0 2px 3px #444; /* Firefox */
     -webkit-text-shadow: 0 2px 3px #444; /* Safari, Chrome */
@@ -31,6 +31,16 @@ a:hover {
 }
 #header h1 span {
     font-weight: 300;
+}
+#header h3 {
+    color: #fff;
+    margin-top:10px;
+    margin-left: 200px;
+    font-size:14px;
+    font-weight:300;
+    -moz-text-shadow: 0 2px 3px #444; /* Firefox */
+    -webkit-text-shadow: 0 2px 3px #444; /* Safari, Chrome */
+    text-shadow: 0 2px 3px #444; /* CSS3 */
 }
 #primary_nav {
     width:100%;
@@ -55,7 +65,7 @@ a:hover {
 }
 #mainContent {
     background-color:#fff;
-    margin: 65px auto 0;
+    margin: 85px auto 0;
     -moz-box-shadow: 0 3px 5px #444;
     -webkit-box-shadow: 0 3px 5px #444;
     box-shadow: 0 3px 5px #444;  
