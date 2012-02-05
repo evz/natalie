@@ -102,7 +102,7 @@ CACHE_MIDDLEWARE_KEY_PREFIX = PROJECT_DIRNAME
 # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
 # trailing slash.
 # Examples: "http://foo.com/media/", "/media/".
-ADMIN_MEDIA_PREFIX = "/media/"
+ADMIN_MEDIA_PREFIX = "/static/"
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash if there is a path component (optional in other cases).
@@ -119,7 +119,8 @@ ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
 # Always use forward slashes, even on Windows.
 # Don't forget to use absolute paths, not relative paths.
 TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
-
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, STATIC_URL)
 
 ################
 # APPLICATIONS #
@@ -132,6 +133,7 @@ INSTALLED_APPS = (
     "django.contrib.redirects",
     "django.contrib.sessions",
     "django.contrib.sites",
+    "django.contrib.staticfiles",
     "mezzanine.conf",
     "mezzanine.core",
     "mezzanine.blog",
